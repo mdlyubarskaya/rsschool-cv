@@ -8,6 +8,7 @@
 ***
 ## About Me
 I am 20 years old, I work as an English teacher. 
+Currently I'm learning Frontend Development. 
 ***
 ## Skills
 * HTML
