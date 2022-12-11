@@ -30,7 +30,7 @@ Minsk State Linguistic University
 ***
 ## Languages
 * Russian - native speaker.
-* English - C1
+* English - C1 (I completed a two-month internship in Great Britain) 
 * Chinese - HSK4
 * Spanish - A1
 
