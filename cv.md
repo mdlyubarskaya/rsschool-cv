@@ -8,7 +8,6 @@
 ***
 ## About Me
 I am 20 years old, I work as an English teacher. 
-Currently I'm learning Frontend Development. 
 ***
 ## Skills
 * HTML
@@ -31,7 +30,7 @@ Minsk State Linguistic University
 ***
 ## Languages
 * Russian - native speaker.
-* English - C1 (I completed a two-month internship in Great Britain) 
+* English - C1
 * Chinese - HSK4
 * Spanish - A1
 

@@ -1,1 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: aquamarine;
+    font-family:'Roboto', sans-serif;
+}
 
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #FAFFFA;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+.left-side {
+    position: relative;
+    background: #D9FFE1;
+    padding: 40px 40px 0 40px;
+}
+.right-side {
+    position: relative;
+    background: #FAFFFA;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 1 auto;
+}
+
+.avatar {
+    height: 300px;
+    width: 240px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #F6FFBD;
+
+}
+.contact {
+    margin-top: 20px;
+    line-height: 2;
+}
+li {
+    list-style-type: none;
+}
+
+.languages {
+    display: flex;
+    margin-top: 30px;
+    line-height: 2.5;
+
+}
+.lang-line {
+    border-left: 15px solid #F6FFBD;
+    height: 240px;
+    margin-right: 20px;
+}
+.rs-school {
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+.name {
+    text-align: center;
+    width: 500px;
+}
+.name>h1 {
+    border-bottom: 4px solid #D9FFE1;
+    padding-bottom: 5px;
+}
+.name>h3 {
+    margin-top: 10px;
+    font-style: italic;
+    opacity: 0.4;
+}
+.about-me {
+    margin-top: 20px;
+    background-color: #fff2eb;
+    width: 500px;
+    height: 120px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.about-me>p {
+    margin-top: 10px;
+}
+
+.education {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+:root {
+    --bg-color: #fff2eb;
+}
+
+:root {
+    --line-gap: 15px;
+}
+:root {
+    --text-gap: 7px;
+}
+.education>h3 {
+    margin-top: var(--line-gap);
+    background-color: var(--bg-color);
+}
+.education>p {
+    margin-top: var(--text-gap);
+}
+.courses {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.courses>h3 {
+    background-color: var(--bg-color);
+    margin-top: var(--line-gap);
+}
+.courses>p {
+    margin-top: var(--text-gap);
+}
+.code-example {
+    
+    margin-left: 40px; 
+}
+.code-example > h2 {
+    margin-top: var(--line-gap);
+}
+.code-example > pre {
+    font-size: 18px;
+    margin-top: var(--text-gap);
+    background: var(--bg-color);
+    margin-bottom: 10px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 50px;
+}
+footer>p {
+    margin-left: 170px;
+    margin-top: 20px;
+    font-size: 20px;
+    opacity: 0.6;
+   
+}
